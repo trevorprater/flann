@@ -1,3 +1,6 @@
+Version 1.8.5
+	* Added support for incremental additions/deletions of points in Python
+
 Version 1.6.11
 	* bug fixes
 

@@ -201,6 +201,22 @@ FLANN_EXPORT flann_index_t flann_load_index_int(char* filename,
                                                 int rows,
                                                 int cols);
 
+/**
+   Adds nodes to an index after it has been built.
+
+   Params:
+    index_id = index to add points to
+    dataset = pointer to a dataset saved in row major order
+    rows = number of rows in dataset
+    rebuild_threshold = controls when the index is rebuilt, by default this is done when it doubles in size(=2)
+
+   Returns: void
+ */
+FLANN_EXPORT void flann_add_points(flann_index_t index_id, float* dataset, int rows, int rebuild_threshold);
+FLANN_EXPORT void flann_add_points_float(flann_index_t index_id, float* dataset, int rows, int rebuild_threshold);
+FLANN_EXPORT void flann_add_points_double(flann_index_t index_id, double* dataset, int rows, int rebuild_threshold);
+FLANN_EXPORT void flann_add_points_int(flann_index_t index_id, int* dataset, int rows, int rebuild_threshold);
+FLANN_EXPORT void flann_add_points_byte(flann_index_t index_id, unsigned char* dataset, int rows, int rebuild_threshold);
 
 /**
    Builds an index and uses it to find nearest neighbors.
