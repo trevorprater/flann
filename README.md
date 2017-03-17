@@ -21,6 +21,9 @@ Getting FLANN
 -------------
 
 The latest version of FLANN can be downloaded from here:
+ * Version 1.8.5 (17 March 2016)
+    [User manual](http://people.cs.ubc.ca/~mariusm/uploads/FLANN/flann_manual-1.8.4.pdf)
+    [Changelog](https://github.com/trevorprater/flann/ChangeLog)
 
  *  Version 1.8.4 (15 January 2013)
     [flann-1.8.4-src.zip](http://people.cs.ubc.ca/~mariusm/uploads/FLANN/flann-1.8.4-src.zip) (Source code)  
