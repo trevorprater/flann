@@ -21,30 +21,26 @@ Getting FLANN
 -------------
 
 The latest version of FLANN can be downloaded from here:
- *  Version 1.8.5 (17 March 2017)
-
-    [flann-1.8.5-src.zip](https://github.com/trevorprater/flann/archive/1.8.5.zip) (Source Code)
-
+ *  Version 1.8.5 (17 March 2017) [flann-1.8.5-src.zip](https://github.com/trevorprater/flann/archive/1.8.5.zip) (Source Code)
     [User manual](http://people.cs.ubc.ca/~mariusm/uploads/FLANN/flann_manual-1.8.4.pdf)
-
     [Changelog](https://github.com/trevorprater/flann/ChangeLog)
 
  *  Version 1.8.4 (15 January 2013)
     [flann-1.8.4-src.zip](http://people.cs.ubc.ca/~mariusm/uploads/FLANN/flann-1.8.4-src.zip) (Source code)  
     [User manual](http://people.cs.ubc.ca/~mariusm/uploads/FLANN/flann_manual-1.8.4.pdf)  
-    [Changelog](https://github.com/mariusmuja/flann/blob/master/ChangeLog)  
+    [Changelog](https://github.com/trevorprater/flann/blob/master/ChangeLog)
 
 If you want to try out the latest changes or contribute to FLANN, then it's recommended that you checkout the git source repository: `git clone git://github.com/mariusmuja/flann.git`
 
-If you just want to browse the repository, you can do so by going [here](https://github.com/mariusmuja/flann).
+If you just want to browse the repository, you can do so by going [here](https://github.com/trevorprater/flann).
 
 
 Conditions of use
 -----------------
 
-FLANN is distributed under the terms of the [BSD License](https://github.com/mariusmuja/flann/blob/master/COPYING).
+FLANN is distributed under the terms of the [BSD License](https://github.com/trevorprater/flann/blob/master/COPYING).
 
 Bug reporting
 -------------
 
-Please report bugs or feature requests using [github's issue tracker](http://github.com/mariusmuja/flann/issues).
+Please report bugs or feature requests using [github's issue tracker](http://github.com/trevorprater/flann/issues).
